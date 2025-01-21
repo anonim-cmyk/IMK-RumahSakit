@@ -42,7 +42,7 @@ function ChatAi() {
             break;
           case "Prosedure":
             chat = await params.injectMessage(
-              "Untuk pendaftaran rawat inap, Anda perlu membawa KTP, kartu asuransi (jika ada), dan dokumen rujukan dari dokter."
+              "Untuk pendaftaran rawat inap, Anda perlu membawa KTP,dan dokumen rujukan dari dokter."
             );
             break;
           default:
